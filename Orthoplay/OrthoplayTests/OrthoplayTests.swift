@@ -22,8 +22,10 @@ class OrthoplayTests: XCTestCase {
     }
     
     func testExample() {
+        //STFail(@"Unit tests are not implemented yet in SampleProjectTests");
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertFalse(true);
     }
     
     func testPerformanceExample() {
