@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    public @IBOutlet weak var volumeDisplay: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func changeVolume(sender: AnyObject) {
+        var t:float_t
+        t = sender.value
+        self.volumeDisplay.text = String(format: "%.0f", t)
+    }
 
 }
 
