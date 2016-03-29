@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    public @IBOutlet weak var volumeDisplay: UILabel!
+    @IBOutlet weak var volumeDisplay: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
