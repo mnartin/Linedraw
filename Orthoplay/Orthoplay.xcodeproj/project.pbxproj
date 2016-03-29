@@ -22,6 +22,7 @@
 		4F2874681CA93E830008F649 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874671CA93E830008F649 /* NotificationController.swift */; };
 		4F28746A1CA93E830008F649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874691CA93E830008F649 /* Assets.xcassets */; };
 		4F28746E1CA93E830008F649 /* Orthowatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4F2874501CA93E830008F649 /* Orthowatch.app */; };
+		4F938FEB1CAAB088006C06DD /* WatchCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F938FEA1CAAB088006C06DD /* WatchCommunication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		4F2874671CA93E830008F649 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		4F2874691CA93E830008F649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F28746B1CA93E830008F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F938FEA1CAAB088006C06DD /* WatchCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCommunication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				4F2874201CA93E5D0008F649 /* AppDelegate.swift */,
+				4F938FEA1CAAB088006C06DD /* WatchCommunication.swift */,
 				4F2874221CA93E5D0008F649 /* ViewController.swift */,
 				4F2874241CA93E5D0008F649 /* Main.storyboard */,
 				4F2874271CA93E5D0008F649 /* Assets.xcassets */,
@@ -417,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F938FEB1CAAB088006C06DD /* WatchCommunication.swift in Sources */,
 				4F2874231CA93E5D0008F649 /* ViewController.swift in Sources */,
 				4F2874211CA93E5D0008F649 /* AppDelegate.swift in Sources */,
 			);
@@ -733,6 +737,7 @@
 				4F2874471CA93E5D0008F649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F2874481CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "OrthoplayTests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +746,7 @@
 				4F28744A1CA93E5D0008F649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F28744B1CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "OrthoplayUITests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +755,7 @@
 				4F28744D1CA93E5D0008F649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F28746F1CA93E830008F649 /* Build configuration list for PBXNativeTarget "Orthowatch Extension" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +764,7 @@
 				4F2874711CA93E830008F649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F2874731CA93E830008F649 /* Build configuration list for PBXNativeTarget "Orthowatch" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +773,7 @@
 				4F2874751CA93E830008F649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
