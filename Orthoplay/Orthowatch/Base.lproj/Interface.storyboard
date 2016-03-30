@@ -11,10 +11,11 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Orthowatch" customModuleProvider="target">
                     <items>
                         <label width="80.5" height="21.5" alignment="left" text="80" id="dpa-Wb-C7b"/>
-                        <activity alignment="left" id="azb-s1-C5c"/>
+                        <slider width="1" alignment="left" accessibilityLabel="VolumeSliderMain" value="1" maximum="100" steps="5" id="K7C-FL-LrS"/>
                     </items>
                     <connections>
                         <outlet property="volumeDisplay" destination="dpa-Wb-C7b" id="Tp3-cX-jbg"/>
+                        <outlet property="volumeSlider" destination="K7C-FL-LrS" id="ZJc-cK-QhD"/>
                     </connections>
                 </controller>
             </objects>

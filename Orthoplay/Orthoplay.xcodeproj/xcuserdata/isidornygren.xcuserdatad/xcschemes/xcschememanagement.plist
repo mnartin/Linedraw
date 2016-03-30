@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Orthoplay.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Orthowatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Orthowatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4F28741C1CA93E5D0008F649</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F2874301CA93E5D0008F649</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F28743B1CA93E5D0008F649</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F28744F1CA93E830008F649</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
