@@ -13,6 +13,7 @@ import WatchConnectivity
 
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
+    @IBOutlet var volumeSlider: WKInterfaceSlider?
     @IBOutlet var volumeDisplay: WKInterfaceLabel!
     var session : WCSession!
     
@@ -33,6 +34,11 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             session.activateSession()
         }
     }
+    
+    @IBAction func sliderAction(value: Float){
+        let roundedValue = Int(round(value))
+        self.volumeDisplay.setText("\(roundedValue)")
+    }
 
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
@@ -48,6 +54,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         // GCD - Present on the screen
         dispatch_async(dispatch_get_main_queue()) { () -> Void in
             self.volumeDisplay.setText(value)
+            self.volumeSlider!.setValue(NSString(string: value!).floatValue)
         }
         
         // Send a reply
