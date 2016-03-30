@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2874211CA93E5D0008F649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874201CA93E5D0008F649 /* AppDelegate.swift */; };
+		4F2874231CA93E5D0008F649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874221CA93E5D0008F649 /* ViewController.swift */; };
+		4F2874261CA93E5D0008F649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874241CA93E5D0008F649 /* Main.storyboard */; };
+		4F2874281CA93E5D0008F649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874271CA93E5D0008F649 /* Assets.xcassets */; };
+		4F28742B1CA93E5D0008F649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874291CA93E5D0008F649 /* LaunchScreen.storyboard */; };
+		4F2874361CA93E5D0008F649 /* OrthoplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874351CA93E5D0008F649 /* OrthoplayTests.swift */; };
+		4F2874411CA93E5D0008F649 /* OrthoplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874401CA93E5D0008F649 /* OrthoplayUITests.swift */; };
+		4F2874541CA93E830008F649 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874521CA93E830008F649 /* Interface.storyboard */; };
+		4F2874561CA93E830008F649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874551CA93E830008F649 /* Assets.xcassets */; };
+		4F28745D1CA93E830008F649 /* Orthowatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F28745C1CA93E830008F649 /* Orthowatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F2874641CA93E830008F649 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874631CA93E830008F649 /* InterfaceController.swift */; };
+		4F2874661CA93E830008F649 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874651CA93E830008F649 /* ExtensionDelegate.swift */; };
+		4F2874681CA93E830008F649 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2874671CA93E830008F649 /* NotificationController.swift */; };
+		4F28746A1CA93E830008F649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2874691CA93E830008F649 /* Assets.xcassets */; };
+		4F28746E1CA93E830008F649 /* Orthowatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4F2874501CA93E830008F649 /* Orthowatch.app */; };
+		4F938FEB1CAAB088006C06DD /* WatchCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F938FEA1CAAB088006C06DD /* WatchCommunication.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F2874321CA93E5D0008F649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2874151CA93E5D0008F649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F28741C1CA93E5D0008F649;
+			remoteInfo = Orthoplay;
+		};
+		4F28743D1CA93E5D0008F649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2874151CA93E5D0008F649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F28741C1CA93E5D0008F649;
+			remoteInfo = Orthoplay;
+		};
+		4F28745E1CA93E830008F649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2874151CA93E5D0008F649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F28745B1CA93E830008F649;
+			remoteInfo = "Orthowatch Extension";
+		};
+		4F28746C1CA93E830008F649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F2874151CA93E5D0008F649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F28744F1CA93E830008F649;
+			remoteInfo = Orthowatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F2874721CA93E830008F649 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F28745D1CA93E830008F649 /* Orthowatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2874761CA93E830008F649 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4F28746E1CA93E830008F649 /* Orthowatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F28741D1CA93E5D0008F649 /* Orthoplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orthoplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2874201CA93E5D0008F649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F2874221CA93E5D0008F649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F2874251CA93E5D0008F649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F2874271CA93E5D0008F649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F28742A1CA93E5D0008F649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F28742C1CA93E5D0008F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2874311CA93E5D0008F649 /* OrthoplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrthoplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2874351CA93E5D0008F649 /* OrthoplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthoplayTests.swift; sourceTree = "<group>"; };
+		4F2874371CA93E5D0008F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F28743C1CA93E5D0008F649 /* OrthoplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrthoplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2874401CA93E5D0008F649 /* OrthoplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthoplayUITests.swift; sourceTree = "<group>"; };
+		4F2874421CA93E5D0008F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2874501CA93E830008F649 /* Orthowatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orthowatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2874531CA93E830008F649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4F2874551CA93E830008F649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F2874571CA93E830008F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F28745C1CA93E830008F649 /* Orthowatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Orthowatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2874621CA93E830008F649 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4F2874631CA93E830008F649 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4F2874651CA93E830008F649 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4F2874671CA93E830008F649 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4F2874691CA93E830008F649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F28746B1CA93E830008F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F938FEA1CAAB088006C06DD /* WatchCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCommunication.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F28741A1CA93E5D0008F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28742E1CA93E5D0008F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2874391CA93E5D0008F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2874591CA93E830008F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2874141CA93E5D0008F649 = {
+			isa = PBXGroup;
+			children = (
+				4F28741F1CA93E5D0008F649 /* Orthoplay */,
+				4F2874341CA93E5D0008F649 /* OrthoplayTests */,
+				4F28743F1CA93E5D0008F649 /* OrthoplayUITests */,
+				4F2874511CA93E830008F649 /* Orthowatch */,
+				4F2874601CA93E830008F649 /* Orthowatch Extension */,
+				4F28741E1CA93E5D0008F649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F28741E1CA93E5D0008F649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F28741D1CA93E5D0008F649 /* Orthoplay.app */,
+				4F2874311CA93E5D0008F649 /* OrthoplayTests.xctest */,
+				4F28743C1CA93E5D0008F649 /* OrthoplayUITests.xctest */,
+				4F2874501CA93E830008F649 /* Orthowatch.app */,
+				4F28745C1CA93E830008F649 /* Orthowatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F28741F1CA93E5D0008F649 /* Orthoplay */ = {
+			isa = PBXGroup;
+			children = (
+				4F2874201CA93E5D0008F649 /* AppDelegate.swift */,
+				4F938FEA1CAAB088006C06DD /* WatchCommunication.swift */,
+				4F2874221CA93E5D0008F649 /* ViewController.swift */,
+				4F2874241CA93E5D0008F649 /* Main.storyboard */,
+				4F2874271CA93E5D0008F649 /* Assets.xcassets */,
+				4F2874291CA93E5D0008F649 /* LaunchScreen.storyboard */,
+				4F28742C1CA93E5D0008F649 /* Info.plist */,
+			);
+			path = Orthoplay;
+			sourceTree = "<group>";
+		};
+		4F2874341CA93E5D0008F649 /* OrthoplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F2874351CA93E5D0008F649 /* OrthoplayTests.swift */,
+				4F2874371CA93E5D0008F649 /* Info.plist */,
+			);
+			path = OrthoplayTests;
+			sourceTree = "<group>";
+		};
+		4F28743F1CA93E5D0008F649 /* OrthoplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F2874401CA93E5D0008F649 /* OrthoplayUITests.swift */,
+				4F2874421CA93E5D0008F649 /* Info.plist */,
+			);
+			path = OrthoplayUITests;
+			sourceTree = "<group>";
+		};
+		4F2874511CA93E830008F649 /* Orthowatch */ = {
+			isa = PBXGroup;
+			children = (
+				4F2874521CA93E830008F649 /* Interface.storyboard */,
+				4F2874551CA93E830008F649 /* Assets.xcassets */,
+				4F2874571CA93E830008F649 /* Info.plist */,
+			);
+			path = Orthowatch;
+			sourceTree = "<group>";
+		};
+		4F2874601CA93E830008F649 /* Orthowatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F2874631CA93E830008F649 /* InterfaceController.swift */,
+				4F2874651CA93E830008F649 /* ExtensionDelegate.swift */,
+				4F2874671CA93E830008F649 /* NotificationController.swift */,
+				4F2874691CA93E830008F649 /* Assets.xcassets */,
+				4F28746B1CA93E830008F649 /* Info.plist */,
+				4F2874611CA93E830008F649 /* Supporting Files */,
+			);
+			path = "Orthowatch Extension";
+			sourceTree = "<group>";
+		};
+		4F2874611CA93E830008F649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F2874621CA93E830008F649 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F28741C1CA93E5D0008F649 /* Orthoplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2874451CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "Orthoplay" */;
+			buildPhases = (
+				4F2874191CA93E5D0008F649 /* Sources */,
+				4F28741A1CA93E5D0008F649 /* Frameworks */,
+				4F28741B1CA93E5D0008F649 /* Resources */,
+				4F2874761CA93E830008F649 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F28746D1CA93E830008F649 /* PBXTargetDependency */,
+			);
+			name = Orthoplay;
+			productName = Orthoplay;
+			productReference = 4F28741D1CA93E5D0008F649 /* Orthoplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F2874301CA93E5D0008F649 /* OrthoplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2874481CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "OrthoplayTests" */;
+			buildPhases = (
+				4F28742D1CA93E5D0008F649 /* Sources */,
+				4F28742E1CA93E5D0008F649 /* Frameworks */,
+				4F28742F1CA93E5D0008F649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F2874331CA93E5D0008F649 /* PBXTargetDependency */,
+			);
+			name = OrthoplayTests;
+			productName = OrthoplayTests;
+			productReference = 4F2874311CA93E5D0008F649 /* OrthoplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F28743B1CA93E5D0008F649 /* OrthoplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F28744B1CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "OrthoplayUITests" */;
+			buildPhases = (
+				4F2874381CA93E5D0008F649 /* Sources */,
+				4F2874391CA93E5D0008F649 /* Frameworks */,
+				4F28743A1CA93E5D0008F649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F28743E1CA93E5D0008F649 /* PBXTargetDependency */,
+			);
+			name = OrthoplayUITests;
+			productName = OrthoplayUITests;
+			productReference = 4F28743C1CA93E5D0008F649 /* OrthoplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4F28744F1CA93E830008F649 /* Orthowatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2874731CA93E830008F649 /* Build configuration list for PBXNativeTarget "Orthowatch" */;
+			buildPhases = (
+				4F28744E1CA93E830008F649 /* Resources */,
+				4F2874721CA93E830008F649 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F28745F1CA93E830008F649 /* PBXTargetDependency */,
+			);
+			name = Orthowatch;
+			productName = Orthowatch;
+			productReference = 4F2874501CA93E830008F649 /* Orthowatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4F28745B1CA93E830008F649 /* Orthowatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F28746F1CA93E830008F649 /* Build configuration list for PBXNativeTarget "Orthowatch Extension" */;
+			buildPhases = (
+				4F2874581CA93E830008F649 /* Sources */,
+				4F2874591CA93E830008F649 /* Frameworks */,
+				4F28745A1CA93E830008F649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orthowatch Extension";
+			productName = "Orthowatch Extension";
+			productReference = 4F28745C1CA93E830008F649 /* Orthowatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2874151CA93E5D0008F649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Genau Engineering";
+				TargetAttributes = {
+					4F28741C1CA93E5D0008F649 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4F2874301CA93E5D0008F649 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4F28741C1CA93E5D0008F649;
+					};
+					4F28743B1CA93E5D0008F649 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4F28741C1CA93E5D0008F649;
+					};
+					4F28744F1CA93E830008F649 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4F28745B1CA93E830008F649 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F2874181CA93E5D0008F649 /* Build configuration list for PBXProject "Orthoplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F2874141CA93E5D0008F649;
+			productRefGroup = 4F28741E1CA93E5D0008F649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F28741C1CA93E5D0008F649 /* Orthoplay */,
+				4F2874301CA93E5D0008F649 /* OrthoplayTests */,
+				4F28743B1CA93E5D0008F649 /* OrthoplayUITests */,
+				4F28744F1CA93E830008F649 /* Orthowatch */,
+				4F28745B1CA93E830008F649 /* Orthowatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F28741B1CA93E5D0008F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F28742B1CA93E5D0008F649 /* LaunchScreen.storyboard in Resources */,
+				4F2874281CA93E5D0008F649 /* Assets.xcassets in Resources */,
+				4F2874261CA93E5D0008F649 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28742F1CA93E5D0008F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28743A1CA93E5D0008F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28744E1CA93E830008F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2874561CA93E830008F649 /* Assets.xcassets in Resources */,
+				4F2874541CA93E830008F649 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28745A1CA93E830008F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F28746A1CA93E830008F649 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2874191CA93E5D0008F649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F938FEB1CAAB088006C06DD /* WatchCommunication.swift in Sources */,
+				4F2874231CA93E5D0008F649 /* ViewController.swift in Sources */,
+				4F2874211CA93E5D0008F649 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28742D1CA93E5D0008F649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2874361CA93E5D0008F649 /* OrthoplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2874381CA93E5D0008F649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2874411CA93E5D0008F649 /* OrthoplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2874581CA93E830008F649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2874681CA93E830008F649 /* NotificationController.swift in Sources */,
+				4F2874661CA93E830008F649 /* ExtensionDelegate.swift in Sources */,
+				4F2874641CA93E830008F649 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F2874331CA93E5D0008F649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F28741C1CA93E5D0008F649 /* Orthoplay */;
+			targetProxy = 4F2874321CA93E5D0008F649 /* PBXContainerItemProxy */;
+		};
+		4F28743E1CA93E5D0008F649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F28741C1CA93E5D0008F649 /* Orthoplay */;
+			targetProxy = 4F28743D1CA93E5D0008F649 /* PBXContainerItemProxy */;
+		};
+		4F28745F1CA93E830008F649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F28745B1CA93E830008F649 /* Orthowatch Extension */;
+			targetProxy = 4F28745E1CA93E830008F649 /* PBXContainerItemProxy */;
+		};
+		4F28746D1CA93E830008F649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F28744F1CA93E830008F649 /* Orthowatch */;
+			targetProxy = 4F28746C1CA93E830008F649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F2874241CA93E5D0008F649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2874251CA93E5D0008F649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F2874291CA93E5D0008F649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F28742A1CA93E5D0008F649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F2874521CA93E830008F649 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2874531CA93E830008F649 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F2874431CA93E5D0008F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F2874441CA93E5D0008F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F2874461CA93E5D0008F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Orthoplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.Orthoplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F2874471CA93E5D0008F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Orthoplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.Orthoplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F2874491CA93E5D0008F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrthoplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.OrthoplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orthoplay.app/Orthoplay";
+			};
+			name = Debug;
+		};
+		4F28744A1CA93E5D0008F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrthoplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.OrthoplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orthoplay.app/Orthoplay";
+			};
+			name = Release;
+		};
+		4F28744C1CA93E5D0008F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrthoplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.OrthoplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Orthoplay;
+			};
+			name = Debug;
+		};
+		4F28744D1CA93E5D0008F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrthoplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.OrthoplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Orthoplay;
+			};
+			name = Release;
+		};
+		4F2874701CA93E830008F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Orthowatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.Orthoplay.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4F2874711CA93E830008F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Orthowatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.Orthoplay.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4F2874741CA93E830008F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Orthowatch_Extension;
+				INFOPLIST_FILE = Orthowatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.Orthoplay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4F2874751CA93E830008F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Orthowatch_Extension;
+				INFOPLIST_FILE = Orthowatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genau.engineering.project.Orthoplay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F2874181CA93E5D0008F649 /* Build configuration list for PBXProject "Orthoplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2874431CA93E5D0008F649 /* Debug */,
+				4F2874441CA93E5D0008F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2874451CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "Orthoplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2874461CA93E5D0008F649 /* Debug */,
+				4F2874471CA93E5D0008F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2874481CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "OrthoplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2874491CA93E5D0008F649 /* Debug */,
+				4F28744A1CA93E5D0008F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F28744B1CA93E5D0008F649 /* Build configuration list for PBXNativeTarget "OrthoplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F28744C1CA93E5D0008F649 /* Debug */,
+				4F28744D1CA93E5D0008F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F28746F1CA93E830008F649 /* Build configuration list for PBXNativeTarget "Orthowatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2874701CA93E830008F649 /* Debug */,
+				4F2874711CA93E830008F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2874731CA93E830008F649 /* Build configuration list for PBXNativeTarget "Orthowatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2874741CA93E830008F649 /* Debug */,
+				4F2874751CA93E830008F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F2874151CA93E5D0008F649 /* Project object */;
+}
